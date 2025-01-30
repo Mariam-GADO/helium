@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+   margin: 0;
+}
+body{
+   background-color: rgb(20, 20, 20);
+   color:rgb(220, 228, 228) ;
+   min-height: 100vh;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+ul{
+   display: flex; 
+   list-style: none;
+  
+}
+li{
+   padding: 75px; 
+}  
+.infos{ 
+   
+   display: flex;
+   justify-content: space-around ;
+   margin: 30px;
+} 
+.droite{
+   width: 50%;
+  
+}
+#router{
+   width: 100%;
+}
+.gauche{
+   display: flex;
+   align-items: center;
+}
+.titre{
+   font-size: 6rem;
+}
+.stitre{
+   font-size: 1.5rem;
+   color: blue;
+}
+p{
+  font-size: 0.8rem; 
+}
+.foot{ 
+background-color: black;
+padding:30px ;
+display: flex;
+justify-content: space-between;
+}
+.im{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 10px;
+}
+.im button{
+background-color: #474dff; 
+color:white ;
+border-radius: 9px;
+height: 40px;
+width: 140px;
+}
+.left{
+   text-align: center;
+}
+.right{
+width: 67%;
+}
+.partt img{
+width: 90px;
+}
+.part{
+   display: flex;
+   justify-content: space-around;
+   width: 67%;
+   padding-top: px;
+   
+}
+   
